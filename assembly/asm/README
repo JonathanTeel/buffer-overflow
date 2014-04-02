@@ -1,0 +1,49 @@
+32 and 64-bit Linux "Hello World!" programs, written in NASM.
+
+
+-----------------
+-   Tutorials   -
+-----------------
+
+32-bit tutorial:
+http://blog.markloiseau.com/2012/04/hello-world-nasm-linux/
+
+64-bit tutorial:
+http://blog.markloiseau.com/2012/05/64-bit-hello-world-in-linux-assembly-nasm/
+
+
+-----------------
+- Prerequisites -
+-----------------
+
+NASM: http://www.nasm.us/
+gcc or ld: http://packages.ubuntu.com/search?keywords=build-essential
+
+To install on Ubuntu:
+$ sudo apt-get install nasm build-essential
+
+
+-----------------
+-   Compiling   -
+-----------------
+
+To compile everything, enter the directory containing the Makefile and the NASM sources
+and type "make"
+
+To compile just the tiny executables or just the normal executables, type "make tiny" or "make normal" respectively.
+
+To delete all of the compiled object files and executables, leaving only the original source files, type "make clean"
+
+
+------------------
+- Checking size  -
+------------------
+
+Use wordcount (wc):
+
+$ wc hello32
+  1   6 956 hello32
+
+$ wc hello64
+  1   6 980 hello64
+

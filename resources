@@ -1,0 +1,6 @@
+# a repository of shellcodes for various systems
+http://repo.shell-storm.org/shellcode/
+# a buffer overflow paper referencing "smashing the stack" by aleph1
+http://paulmakowski.wordpress.com/2011/01/25/smashing-the-stack-in-2011/
+# a copy of the original "smashing the stack"
+http://insecure.org/stf/smashstack.html
