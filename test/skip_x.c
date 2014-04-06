@@ -1,10 +1,18 @@
+#include <stdio.h>
+
+/**
+ * A quick program to demonstrate the power of the return address
+ * skips the `x = 1;` assignment.
+ */
+
 void function(int a, int b, int c) {
-   char buffer1[5];
-   char buffer2[10];
    int *ret;
 
-   ret = buffer1 + 12;
-   (*ret) += 8;
+   // grab the address on the stack two bytes before `ret`. this ought to be
+   // the saved return address from before this function was executed.
+   ret = (int*)(&ret) + 0x02;
+   // increment it by 6 bytes (skip the assignment!)
+   (*ret) += 0x06;
 }
 
 void main() {
