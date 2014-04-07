@@ -45,3 +45,8 @@ done
   - this will try 64 different addresses, each a byte appart
   - (when done correctly, I've never had this spawn fewer than a dozen shells)
   - (once you get a shell a few times, say `touch break` to end the loop)
+
+
+### Also:
+Don't forget to checkout the presentation!
+`http://prezi.com/cl27ljs93ej1/buffer-overflow-attacks`
